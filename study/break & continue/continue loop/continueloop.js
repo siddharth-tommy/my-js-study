@@ -3,7 +3,7 @@
 function continueFunc(){
 var text = '';
 var i;
-alert("skips when 7 comes and continue as usual") 
+alert("skips when 7 comes and continue as usual")
 for (i = 0; i < 10; i++) {
     if(i===7){continue}
   text += "The number is " + i + "<br>";
