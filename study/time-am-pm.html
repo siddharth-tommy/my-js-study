@@ -1,0 +1,22 @@
+<html>
+    <head>
+    </head>
+<body>
+<h2>time with am and pm</h2>
+today current time
+<p id="check"></p>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+<script>
+a=new Date()
+b=a.getHours()
+if(b>=12){
+    b+="pm"
+}
+else{
+    b+="am"
+}
+document.getElementById('check').innerHTML=b
+
+</script>
+</body>
+</html>
